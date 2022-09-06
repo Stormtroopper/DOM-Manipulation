@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(https://th.bing.com/th/id/R.3e4ee796d1ff1f7b1b5a49a8efea082b?rik=Ok65mUu0q5MKVw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2faa1k3DG.jpg&ehk=p4GGfrOVjNydkzPsmNbd9aNfhMkW64VQJ0B5KmfEQm4%3d&risl=&pid=ImgRaw&r=0)no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 34px;
+    box-shadow: 0 0 3px;
+}
+#timer{
+    width:100%;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px auto;
+    padding:40px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 45px;
+}
+button{
+    margin:0 10px;
+    border:none;
+}
+button i{
+    font-size: 2 rem;
+    padding:12px;
+    color:#fff;
+}
+#play{
+background-color: violet;
+}
+#pause{
+background-color: red;
+}
+#reset{
+background-color: orange;
+}

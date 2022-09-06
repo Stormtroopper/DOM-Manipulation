@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(https://wallpaperaccess.com/full/1697072.jpg)no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#adding-task-container{
+    width:350px;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    margin-bottom: 20px;
+}
+input{
+    flex:6;
+    margin:14px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+#adding-task{
+    font-size: 1.2rem;
+    flex: 1;
+    padding:  5px ;
+    background-color: #fff;
+    border:violet solid 2px;
+    border-radius: 10px;
+}
+#adding-task:hover{
+    background-color:violet ;
+    color: #fff;
+}
+.task{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 6px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.task li{
+    list-style: none;
+    flex:4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+.task button{
+    flex:1;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.task .checkTask{
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5 rem;
+}
+.task .deleteTask{
+    color: orangered;
+    margin-right: 5px;
+    border: solid 2px orangered;
+    font-size: 1.3 rem;
+}
